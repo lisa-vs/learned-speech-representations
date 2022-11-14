@@ -1,0 +1,25 @@
+{
+    "english_train_data": "/features/wordpairs/devpart1/devpart1_utd_terms.mfcc.cmvn_dd.npz",
+    "english_validation_data": "/features/wordpairs/devpart2/devpart2.samediff.mfcc.cmvn_dd.npz",
+    "english_test_data": "/features/wordpairs/zs/zs.samediff.mfcc.cmvn_dd.npz",
+
+    "xitsonga_train_data": "/features/wordpairs/xitsonga/xitsonga_utd_terms.mfcc.cmvn_dd.npz",
+    "xitsonga_validation_data": "/features/wordpairs/xitsonga/xitsonga.samediff.mfcc.cmvn_dd.npz",
+    "xitsonga_test_data": "/features/wordpairs/xitsonga/xitsonga.samediff.mfcc.cmvn_dd.npz",
+
+    "english_full_train_data": "/features/subsets/devpart1/devpart1.mfcc.cmvn_dd.npz",
+    "english_full_validation_data": "/features/subsets/devpart2/devpart2.mfcc.cmvn_dd.npz",
+    "english_full_test_data": "/features/subsets/zs/zs.mfcc.cmvn_dd.npz",
+
+    "english_word_1_train_data": "/../data/cae_features/devpart1/devpart1_utd.word1.npy",
+    "english_word_2_train_data": "/../data/cae_features/devpart1/devpart1_utd.word2.npy",
+    "english_utd_pair_keys": "/../data/cae_features/devpart1/devpart1_utd_pairs_keys.list",
+    "english_utd_pair_paths": "/../data/cae_features/devpart1/devpart1_utd_pairs_paths.pkl",
+    "english_aligned_train_data": "/features/aligned_segments/buckeye_segments.npz",
+
+    "xitsonga_word_1_train_data": "/../data/cae_features/xitsonga/xitsonga_utd.word1.npy",
+    "xitsonga_word_2_train_data": "/../data/cae_features/xitsonga/xitsonga_utd.word2.npy",
+    "xitsonga_utd_pair_keys": "/../data/cae_features/xitsonga/xitsonga_utd_pairs_keys.list",
+    "xitsonga_utd_pair_paths": "/../data/cae_features/xitsonga/xitsonga_utd_pairs_paths.pkl",
+    "xitsonga_aligned_train_data": "/features/aligned_segments/xitsonga_segments.npz"
+}

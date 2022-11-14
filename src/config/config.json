@@ -1,0 +1,47 @@
+{
+  "cpc": {
+    "learning_rate": 0.0001,
+    "lr_milestones": [],
+    "num_epochs": 10000,
+    "batch_size": 144,
+    "num_buckets": 3,
+    "input_dim": 13,
+    "enc_dim": 512,
+    "z_dim": 64,
+    "c_dim": 256,
+    "num_pred_steps": 3,
+    "num_negatives": 31,
+    "checkpoint_interval": 200
+  },
+  "apc": {
+    "learning_rate": 0.001,
+    "lr_milestones": [],
+    "num_epochs": 10,
+    "batch_size": 81,
+    "num_buckets": 3,
+    "input_dim": 13,
+    "hidden_dim": 512,
+    "num_pred_steps": 1,
+    "checkpoint_interval": 10,
+    "num_layers": 3,
+    "num_pred_steps_aux": 5,
+    "num_aux_anchors": 12,
+    "num_aux_steps_back": 14,
+    "aux_seq_len": 7,
+    "aux_loss_weight": 0.1,
+    "include_aux_loss": true
+  },
+  "capc": {
+    "learning_rate": 0.001,
+    "lr_milestones": [],
+    "num_epochs": 50,
+    "batch_size": 81,
+    "num_buckets": 3,
+    "input_dim": 13,
+    "hidden_dim": 512,
+    "num_pred_steps": 1,
+    "checkpoint_interval": 50,
+    "num_layers": 3,
+    "include_aux_loss": false
+  }
+}
